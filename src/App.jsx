@@ -1,6 +1,7 @@
-import { Route, Router, Routes } from 'react-router-dom';
-import './App.css'
+import { BrowserRouter as Route, Router, Routes } from 'react-router-dom';
+/* import './index.css'
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
@@ -9,10 +10,13 @@ import BlogDetail from './pages/BlogDetail';
 import Packages from './pages/Packages';
 import PackageDetail from './pages/PackageDetail';
 import Destinations from './pages/Destinations';
-
+ */
+import React from 'react';
+import Destinations from './pages/Destinations';
 const App = () => {
   return (
-    <Router>
+    <Destinations/>
+/*     <Router>
       <div className="min-h-screen flex flex-col">
         <Navbar />
 
@@ -37,7 +41,8 @@ const App = () => {
         <Footer />
       </div>
     </Router>
-  );
+ */  
+)
 };
 
 
